@@ -44,14 +44,13 @@ function handleReset() {
     
 <div className="container-fluid">
 <div className="row">
-  <div className="col-sm-12 col-md-12 p-5 bg-light"></div>
+  <div className="col-sm-12 col-md-12 p-4 bg-light"></div>
   <div className="col-sm-12 col-md-8 p-4 bg-light">
-    
-    <div className="container p-2"><Board xIsNext={xIsNext} squares={history[currentMove]} onPlay={handlePlay} />
+    <div className="container p-2 bg-light">
+      <Board xIsNext={xIsNext} squares={history[currentMove]} onPlay={handlePlay} />
 </div>
-    
   </div>
-  <div className="col-sm-12 col-md-4 p-4 bg-light d-flex">
+  <div className="col-sm-12 col-md-4 p-4 bg-light  d-flex" style={{height: "490px"}}>
     <div className="container p-2 "><ol className="p-2 border-0">
  {moves} 
       </ol>
