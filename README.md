@@ -1,8 +1,52 @@
-# React + Vite
+Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Tic-Tac-Toe game built with React and Bootstrap, featuring a move history and a reset button.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Interactive Tic-Tac-Toe gameplay
+
+Move history with the ability to jump to previous moves
+
+Reset button to restart the game
+
+Bootstrap styling for a responsive layout
+
+Installation
+
+Clone the repository:
+
+Navigate to the project folder:
+
+cd tic-tac-toe-react
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+File Structure
+
+src/
+  ├── App.jsx
+  ├── Game.jsx
+  ├── Board.jsx
+  ├── Square.jsx
+  ├── index.css
+  ├── main.jsx
+
+Usage
+
+Click on a square to make a move.
+
+View move history and jump to previous moves.
+
+Click the "Reset Game" button to restart.
+
+License
+
+This project is free to use and distribute under the MIT License.
+
