@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: thin solid black;
+}
